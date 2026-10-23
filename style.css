@@ -1,4 +1,4 @@
-/* Styling Bagian Profil Diri */
+/* Styling Bagian Tentang Saya */
 .about-section {
     padding: 60px 8%;
     background-color: #f8f9fa;
@@ -6,7 +6,7 @@
 
 .about-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .about-header h2 {
@@ -18,27 +18,6 @@
 .about-header p {
     color: #666;
     font-size: 14px;
-}
-
-.about-summary {
-    background: #ffffff;
-    border-radius: 16px;
-    padding: 25px 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-}
-
-.about-summary h3 {
-    font-size: 18px;
-    color: #222;
-    margin-bottom: 12px;
-}
-
-.about-summary p {
-    color: #555;
-    font-size: 14px;
-    line-height: 1.7;
-    margin-bottom: 10px;
 }
 
 .about-cards {
@@ -53,20 +32,14 @@
     border-radius: 16px;
     padding: 30px;
     flex: 1;
-    min-width: 320px;
+    min-width: 300px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .card h3 {
     font-size: 18px;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     color: #222;
-}
-
-.sub-title {
-    font-size: 15px;
-    color: #333;
-    margin: 18px 0 10px 0;
 }
 
 .info-table {
@@ -77,43 +50,38 @@
 .info-table td {
     padding: 8px 0;
     vertical-align: top;
-    font-size: 13px;
+    font-size: 14px;
     color: #444;
 }
 
 .info-table td:first-child {
-    width: 35%;
+    width: 38%;
     color: #222;
 }
 
-.school-info {
+.about-desc {
+    color: #555;
     font-size: 14px;
-    color: #333;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #eee;
-}
-
-.school-info span {
-    color: #666;
-    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .badges {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
 }
 
 .badge {
     background-color: #f1f2f6;
     color: #333;
-    padding: 6px 12px;
-    border-radius: 16px;
-    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
     font-weight: 500;
 }
 
 .badge.highlight {
-    background-color: #e8f4fe;
-    color: #0984e3;
+    background-color: #ffeaa7;
+    color: #d63031;
 }
