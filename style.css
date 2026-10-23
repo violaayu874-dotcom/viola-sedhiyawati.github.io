@@ -114,11 +114,12 @@ nav a:hover {
 }
 
 /* HERO IMAGE */
-.hero-image {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero-image img {
+    width: 300px;
+    height: 360px; /* Bikin bentuk agak tinggi/portrait biar makin estetik */
+    object-fit: cover;
+    border-radius: 24px; /* Efek tumpul di setiap sudutnya */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .hero-image img {
