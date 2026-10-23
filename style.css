@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #fff;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 8%;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.greeting {
+    color: #666;
+    font-size: 16px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #1a1a1a;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.company {
+    color: #00b894;
+}
+
+.bio-desc {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #8c7ae6;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #8c7ae6;
+}
